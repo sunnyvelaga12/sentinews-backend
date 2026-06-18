@@ -1,0 +1,56 @@
+# SentiNews Backend Requirements
+
+# FastAPI
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+
+# Database
+sqlalchemy==2.0.43
+asyncpg==0.30.0
+alembic==1.16.4
+
+# Validation
+pydantic==2.11.7
+pydantic-settings==2.10.1
+email-validator==2.2.0
+
+# Authentication
+python-jose[cryptography]==3.5.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.3.0
+python-multipart==0.0.20
+
+# HTTP Clients
+httpx==0.28.1
+aiohttp==3.12.15
+
+# Redis
+redis==6.4.0
+
+# Background Tasks
+celery==5.5.3
+apscheduler==3.11.0
+
+# AI
+google-generativeai==0.8.5
+
+# env
+python-dotenv==1.1.1
+
+# Logging
+loguru==0.7.3
+
+# Utilities
+orjson==3.11.1
+ujson==5.10.0
+
+# Testing
+pytest==8.4.1
+pytest-asyncio==1.1.0
+pytest-cov==6.2.1
+
+# Linting
+black==25.1.0
+ruff==0.12.7
+isort==6.0.1
+mypy==1.17.1
